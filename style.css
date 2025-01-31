@@ -1,109 +1,109 @@
 body {
-    background: rgba(17, 17, 14, 0.576);
-    color: rgba(33, 11, 11, 0.796);
-    padding: 10px;
-    font-family: Arial, sans-serif;
+  background: rgba(17, 17, 14, 0.576);
+  color: rgba(33, 11, 11, 0.796);
+  padding: 10px;
+  font-family: Arial, sans-serif;
 }
 
 #all-contents {
-    max-width: 800px;
-    margin: auto;
+  max-width: 800px;
+  margin: auto;
 }
 
 /* navigation menu */
 nav {
-    background: rgb(7, 5, 5)
-    margin: 0 auto;
-    display: flex;
-    padding: 10px;
-    justify-content:space-between;
-    margin-bottom: 20px;
+  background: rgb(113, 110, 110);
+  margin: 0 auto;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border: 4px rgb(0, 0, 0)ridge;
 }
 
 h1 {
-    display: flex;
-    align-items: center;
-    color: rgb(150, 86, 190);
-    flex: 1;
-    margin: 0;
-    border: 4px rgb(0, 0, 0) outset;
+  display: flex;
+  align-items: center;
+  color: rgb(165, 46, 229);
+  flex: 1;
+  margin: 0;
 }
 
 #nav-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .nav-li {
-    display: inline-block;
-    padding: 0 10px;
+  display: inline-block;
+  padding: 0 10px;
 }
 
 a {
-    text-decoration: none;
-    color: #a565da;
+  text-decoration: none;
+  color: #a565da;
 }
 
 /* main container area beneath menu */
 main {
-    background: rgb(59, 56, 56);
-    display: flex;
-    margin-top: 20px;
-    border: 2px rgb(188, 110, 221) inset;
+  background: rgb(59, 56, 56);
+  display: flex;
+  margin-top: 20px;
+  border: 2px rgb(188, 110, 221) inset;
 }
 
 .sidebar {
-    margin-right: 25px;
-    padding: 10px;
+  margin-right: 25px;
+  padding: 10px;
 }
 
 .sidebar-img {
-    width: 200px;
-    border: 3px rgb(142, 78, 172) outset;
+  width: 200px;
+  border: 3px rgb(142, 78, 172) outset;
 }
 
 .content {
-    flex: 1;
-    padding: 15px;
-    color: rgb(149, 63, 155);
-}
+  flex: 1;
+  padding: 15px;
+  color: rgb(149, 63, 155);
 }
 
 /* interests section styles */
 #interests {
-    border: 4px rgb(129, 80, 167) ridge;
-    padding: 8px;
-    margin-top: 20px;
+  border: 4px rgb(129, 80, 167) ridge;
+  padding: 8px;
+  margin-top: 20px;
 }
 
-h2,h3 {
-    margin: 0px;
-    color: rgb(149, 63, 155);
+h2,
+h3 {
+  margin: 0px;
+  color: rgb(149, 63, 155);
 }
 /* Portfolio styles */
 .content h1 {
-    color: rgb(149, 63, 155);
-  }
-  
-  #portfolio {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  
-  #portfolio li {
-    background: #d25bd4;
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-  }
-  
-  #portfolio li:hover {
-    background: #eee;
-  }
-  
-  #portfolio a {
-    text-decoration: none;
-    color: #fcf5f5;
-  }
+  color: rgb(149, 63, 155);
+}
+
+#portfolio {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#portfolio li {
+  background: #d25bd4;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+  background: #bf4fe4;
+}
+
+#portfolio a {
+  text-decoration: none;
+  color: #fcf5f5;
+}
