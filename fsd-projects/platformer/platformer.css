@@ -1,9 +1,10 @@
 body {
   margin: 0px;
+  
 }
 
 canvas {
-  background-color: lightblue;
+  background-color: rgb(198, 34, 231);
   margin: 20px;
 }
 
